@@ -1,0 +1,41 @@
+{
+  "name": "simple-ftp-deploy",
+  "version": "1.0.0",
+  "description": "A node library that simplifies the usage of ftp-deploy package",
+  "license": "MIT",
+  "repository": "https://github.com/vkiss/simple-ftp-deploy",
+  "author": "Vinicius Kiss <contato@vkiss.com.br>",
+  "bin": "./bin/simple-ftp-deploy.js",
+  "main": "./lib/index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "keywords": [
+    "ftp",
+    "deploy"
+  ],
+  "bugs": {
+    "url": "https://github.com/vkiss/simple-ftp-deploy/issues"
+  },
+  "homepage": "https://github.com/vkiss/simple-ftp-deploy#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cosmiconfig": "^7.0.1",
+    "ftp-deploy": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ]
+  }
+}
