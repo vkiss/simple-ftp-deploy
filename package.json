@@ -4,7 +4,7 @@
   "description": "A node library that simplifies the usage of ftp-deploy package",
   "license": "MIT",
   "repository": "https://github.com/vkiss/simple-ftp-deploy",
-  "author": "Vinicius Kiss <contato@vkiss.com.br>",
+  "author": "Vinicius Kiss <contato@vkiss.com.br> (https://www.vkiss.com.br/)",
   "bin": "./bin/simple-ftp-deploy.js",
   "main": "./lib/index.js",
   "files": [
