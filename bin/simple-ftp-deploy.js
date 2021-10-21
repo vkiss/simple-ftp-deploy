@@ -91,7 +91,7 @@ const getDeployConfig = () => {
 
 const runScript = () => {
   // Script start message
-  info( chalk.gray( "> simple-ftp-ftp.js" ) );
+  info( chalk.gray( "> simple-ftp-deploy.js" ) );
 
   simpleFtpDeploy( {
     ...getAuthenticationInfo(),
