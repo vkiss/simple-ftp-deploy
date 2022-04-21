@@ -1,19 +1,12 @@
 #!/usr/bin/env node
 
-/**
- * -----------------------------
- * Requires
- * -----------------------------
- */
-
-const fs = require( "fs" );
-const { cosmiconfigSync } = require( "cosmiconfig" );
-const chalk = require( "chalk" );
+import fs from "fs";
+import { cosmiconfigSync } from "cosmiconfig";
+import chalk from "chalk";
+import simpleFtpDeploy from "../lib/index.js";
 
 const explorerSync = cosmiconfigSync( "ftp" );
 const globalConfig = explorerSync.search();
-
-const simpleFtpDeploy = require( "../lib" );
 
 const { info } = console;
 
