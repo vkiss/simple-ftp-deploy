@@ -1,3 +1,9 @@
+## 1.0.2
+> **Publishing date:** 2022-04-21
+
+- **Refac:** package.module
+- **Build:** Update dev packages
+
 ## 1.0.1
 > **Publishing date:** 2021-11-05
 
