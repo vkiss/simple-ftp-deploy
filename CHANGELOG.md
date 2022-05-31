@@ -1,7 +1,6 @@
 ## 1.0.3
 > **Publishing date:** 2022-05-31
 
-- **Build:** Update del dependency
 - **Revert:** package.module
 
 ## 1.0.2
