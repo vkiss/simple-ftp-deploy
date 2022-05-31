@@ -1,7 +1,6 @@
 {
   "name": "simple-ftp-deploy",
-  "version": "1.0.2",
-  "type": "module",
+  "version": "1.0.3",
   "description": "A node library that simplifies the usage of ftp-deploy package",
   "license": "MIT",
   "repository": "https://github.com/vkiss/simple-ftp-deploy",
@@ -25,7 +24,7 @@
   },
   "homepage": "https://github.com/vkiss/simple-ftp-deploy#readme",
   "dependencies": {
-    "chalk": "^5.0.1",
+    "chalk": "4.1.2",
     "cosmiconfig": "^7.0.1",
     "ftp-deploy": "^2.4.2"
   },
