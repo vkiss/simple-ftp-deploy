@@ -1,6 +1,6 @@
 {
   "name": "simple-ftp-deploy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A node library that simplifies the usage of ftp-deploy package",
   "license": "MIT",
   "repository": "https://github.com/vkiss/simple-ftp-deploy",
@@ -26,11 +26,11 @@
   "dependencies": {
     "chalk": "4.1.2",
     "cosmiconfig": "^7.0.1",
-    "ftp-deploy": "^2.4.2"
+    "ftp-deploy": "^2.4.3"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.17.0",
-    "eslint": "^8.13.0",
+    "@babel/eslint-parser": "^7.18.2",
+    "eslint": "^8.19.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.0"
   },
