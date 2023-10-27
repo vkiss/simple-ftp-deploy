@@ -1,3 +1,8 @@
+## 1.0.5
+> **Publishing date:** 2023-10-27
+
+- **Build:** Update ftp-deploy
+
 ## 1.0.4
 > **Publishing date:** 2022-07-05
 
